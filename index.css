@@ -1,0 +1,62 @@
+body {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 1.2rem;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* smooth dark gradient */
+  color: gold;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  margin-top: 120px; /* space for navbar */
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.05); /* slight transparent overlay */
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
+h1 {
+  font-family: 'Acme', sans-serif;
+  font-size: 2.5rem;
+  color: #ffdd57; /* golden accent */
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.custom-button {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 1.8rem;
+  border-radius: 50px;
+  width: 220px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+}
+
+/* FrontEnd Button Style */
+.btn-frontend {
+  background-color: #6f42c1; /* purple */
+  color: white;
+  border: 2px solid #5a359b;
+}
+.btn-frontend:hover {
+  background-color: #805ad5;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+/* BackEnd Button Style */
+.btn-backend {
+  background-color: #28a745; /* green */
+  color: white;
+  border: 2px solid #1e7e34;
+}
+.btn-backend:hover {
+  background-color: #5cb85c;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.text-gold {
+  color: #ffdd57;
+}

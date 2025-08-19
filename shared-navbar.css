@@ -1,0 +1,29 @@
+/* Shared Navbar Style */
+.navbar-custom {
+    background-color: rgba(0, 45, 64, 0.9); /* Slightly transparent dark blue */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    font-family: 'Acme', sans-serif; /* Font for the navbar */
+    font-size: 1.2rem; /* Consistent font size */
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 1.5rem; /* Brand font size */
+    color: #ffdd57 !important; /* Golden brand color */
+}
+
+.navbar-custom .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    font-family: 'Acme', sans-serif; /* Nav links font */
+    font-size: 1.2rem; /* Nav links font size */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffdd57 !important; /* Hover color */
+}
+
+.navbar-custom img {
+    width: 60px;
+    height: 60px;
+}
